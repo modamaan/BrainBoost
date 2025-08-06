@@ -12,12 +12,12 @@ export default function LandingHeader({ isScrolled, mobileMenuOpen, setMobileMen
       className={`sticky top-0 z-50 w-full backdrop-blur-lg transition-all duration-300 ${isScrolled ? "bg-background/80 shadow-sm" : "bg-transparent"}`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 flex h-20 items-center justify-between">
-        <div className="flex items-center gap-3 font-bold">
+        <Link href="#hero" className="flex items-center gap-3 font-bold hover:opacity-80 transition-opacity">
           <div className="size-10 rounded-xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground shadow-lg">
             <Brain className="size-5" />
           </div>
           <span className="text-xl font-bold">BrainBoost</span>
-        </div>
+        </Link>
         <nav className="hidden lg:flex gap-10">
           <Link href="#features" className="text-base font-medium text-muted-foreground transition-colors hover:text-foreground hover:scale-105">Features</Link>
           <Link href="#dashboard" className="text-base font-medium text-muted-foreground transition-colors hover:text-foreground hover:scale-105">Dashboard</Link>

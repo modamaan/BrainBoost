@@ -7,8 +7,8 @@ import { ThemeProvider } from "./theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "SaaSify - Streamline Your Workflow",
-  description: "Boost productivity, reduce costs, and scale your business with our all-in-one SaaS platform.",
+  title: "BrainBoost - Cognitive Training & Brain Games",
+  description: "Enhance your memory, focus, and problem-solving skills with our science-backed brain training exercises and games.",
 }
 
 export default function RootLayout({
